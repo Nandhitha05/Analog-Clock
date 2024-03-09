@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Madimi+One&family=Varela+Round&display=swap');
+
+body{
+    background:radial-gradient(#212020, #e0e0f9);;
+}
+
+#clockcontainer{
+    position:relative;
+    margin:auto;
+    border: 5px solid rgba(124, 122, 122, 0.637);
+    height: 38vw;
+    width:40vw;
+    background: url(clk.png) no-repeat;
+    background-size: 100%;
+    display:flex;
+    justify-content: center;
+    background-position: center;
+    align-items: center;
+
+}
+
+#hour, #min, #sec{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.219);
+    border-radius: 10px;
+    transform-origin:bottom;
+}
+
+
+#hour{
+    height: 13%;
+    width: 0.5%;
+    top: 40%;
+    right: 50%;
+    opacity:0.8;
+    
+}
+
+#min{
+    height: 17%;
+    width: 0.5%;
+    top: 36%;
+    right: 50%;
+    opacity:0.8;
+    
+}
+
+#sec{
+    height: 21%;
+    width: 0.5%;
+    top: 32%;
+    right: 50%;
+    opacity:0.8;
+    
+}
